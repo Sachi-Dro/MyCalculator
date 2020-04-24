@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Calculator.</title>
+	<link href="calculato.ico">
+	<link rel="stylesheet" type="text/css" href="styels.css">
+	<script type="text/javascript" src="javas.js"></script>
+</head>
+<body style="vertical-align: middle;background-image: url('background.jpg');">
+<center>
+	<div class="xxx">
+ <!--<form name="calculator">-->
+            
+            <input style="background-color:grey; color:white; font-size: 25px;" type="text" id="txt"> 
+            <br>
+            
+            <input type="button" value=" AC " onclick="funct_clear()" >
+            <input type="button" value=" +/- "  onclick="funct('+')">
+            <input type="button" value=" % "  onclick="funct('%')">
+            <input style="background-color:darkorange; color: white" type="button" value=" / " onclick="funct('/')">
+            <br/>
+            
+            <input type="button" value=" 7 "  onclick="funct('7')">
+            <input type="button" value=" 8 " onclick="funct('8')">
+            <input type="button" value=" 9 "  onclick="funct('9')">
+            <input  style="background-color: darkorange; color: white"type="button" value=" x "  onclick="funct('*')" >
+            </br>
+          
+            <input type="button" value=" 4 "  onclick="funct('4')">
+            <input type="button" value=" 5 "  onclick="funct('5')">
+            <input type="button" value=" 6 "  onclick="funct('6')">
+            <input style="background-color: darkorange; color: white" type="button" value=" - "  onclick="funct('-')">
+            </br>
+        
+            <input type="button" value=" 1 "  onclick="funct('1')">
+            <input type="button" value=" 2 "  onclick="funct('2')">
+            <input type="button" value=" 3 "  onclick="funct('3')">
+            <input style="background-color: darkorange;color: white" type="button" value=" + "  onclick="funct('+')">
+            </br>
+
+              <input type="button" value=" 0 "  onclick="funct('0')">
+            <input type="button" value="e"  onclick="funct('2.718')">
+            <input type="button" value=" . "  onclick="funct('.')">
+            <input style="background-color: darkorange; color: white" type="button" value=" = "  onclick="solve()">
+           <br>
+   <!--/form-->
+   </div>
+</center>
+
+</body>
+</html>
